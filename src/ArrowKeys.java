@@ -69,11 +69,8 @@ public class ArrowKeys {
         
        });
 
-
-
-       //add o panel no fram
+       //add o panel no frame
        frame.add(panel);
-
 
     }
     public static void main(String[] args) {
