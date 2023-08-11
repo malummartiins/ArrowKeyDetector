@@ -14,7 +14,9 @@ public class MyFrame extends JFrame implements KeyListener {
         this.setLayout(null);
         this.addKeyListener(this);
 
-        icon = new ImageIcon ("lancamento-do-foguete.png");
+        icon = new ImageIcon("lancamento-do-foguete.png");
+        /*java.net.URL imgUrl = getClass().getResource("lancamento-do-foguete(1).png");
+        ImageIcon icon = new ImageIcon(imgUrl);*/
 
         label = new JLabel();
         label.setBounds(0,0,100,100);
